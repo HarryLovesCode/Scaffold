@@ -30,7 +30,9 @@ static const Vertices vertices[3] =
         {0.f, 0.6f, 0.f, 0.f, 1.f}};
 
 static const char *vertex_shader_text =
+#ifdef __EMSCRIPTEN__
     "precision lowp float; \n"
+#endif
     "uniform mat4 MVP;\n"
     "attribute vec3 vCol;\n"
     "attribute vec2 vPos;\n"
@@ -42,7 +44,9 @@ static const char *vertex_shader_text =
     "}\n";
 
 static const char *fragment_shader_text =
+#ifdef __EMSCRIPTEN__
     "precision lowp float; \n"
+#endif
     "varying vec3 color;\n"
     "void main()\n"
     "{\n"
@@ -197,7 +201,7 @@ int main(void)
 #ifndef __EMSCRIPTEN__
     while (!glfwWindowShouldClose(window))
     {
-        draw((void*) app);
+        draw((void *)app);
     }
 #else
     emscripten_set_main_loop_arg(draw, (void *)app, 0, 1);
