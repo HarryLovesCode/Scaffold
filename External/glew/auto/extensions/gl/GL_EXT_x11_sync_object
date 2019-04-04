@@ -1,5 +1,5 @@
 GL_EXT_x11_sync_object
-https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_x11_sync_object.txt
+http://www.opengl.org/registry/specs/EXT/x11_sync_object.txt
 GL_EXT_x11_sync_object
 
 	GL_SYNC_X11_FENCE_EXT 0x90E1

@@ -1,5 +1,5 @@
 GL_ARB_sampler_objects
-https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_sampler_objects.txt
+http://www.opengl.org/registry/specs/ARB/sampler_objects.txt
 GL_ARB_sampler_objects
 
 	GL_SAMPLER_BINDING 0x8919

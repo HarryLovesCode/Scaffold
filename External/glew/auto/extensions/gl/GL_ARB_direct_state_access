@@ -1,5 +1,5 @@
 GL_ARB_direct_state_access
-https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_direct_state_access.txt
+http://www.opengl.org/registry/specs/ARB/direct_state_access.txt
 GL_ARB_direct_state_access
 
 	GL_TEXTURE_TARGET 0x1006

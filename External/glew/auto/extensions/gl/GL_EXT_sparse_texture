@@ -1,5 +1,5 @@
 GL_EXT_sparse_texture
-https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_sparse_texture.txt
+http://www.opengl.org/registry/specs/EXT/sparse_texture.txt
 GL_EXT_sparse_texture
 
 	GL_TEXTURE_2D 0x0DE1

@@ -1,5 +1,5 @@
 GL_ARB_vertex_program
-https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_vertex_program.txt
+http://www.opengl.org/registry/specs/ARB/vertex_program.txt
 GL_ARB_vertex_program
 
 	GL_COLOR_SUM_ARB 0x8458

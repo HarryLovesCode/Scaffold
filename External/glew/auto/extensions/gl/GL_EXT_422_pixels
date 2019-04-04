@@ -1,5 +1,5 @@
 GL_EXT_422_pixels
-https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_422_pixels.txt
+http://www.opengl.org/registry/specs/EXT/422_pixels.txt
 GL_EXT_422_pixels
 
 	GL_422_EXT 0x80CC

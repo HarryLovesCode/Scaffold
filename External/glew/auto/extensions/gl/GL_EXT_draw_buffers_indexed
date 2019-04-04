@@ -1,5 +1,5 @@
 GL_EXT_draw_buffers_indexed
-https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_draw_buffers_indexed.txt
+http://www.opengl.org/registry/specs/EXT/draw_buffers_indexed.txt
 GL_EXT_draw_buffers_indexed
 
 	void glBlendEquationSeparateiEXT (GLuint buf, GLenum modeRGB, GLenum modeAlpha)
