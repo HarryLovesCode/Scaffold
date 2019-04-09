@@ -16,6 +16,8 @@ endif()
 
 add_subdirectory(External/glm)
 
+option(GLM_TEST_ENABLE OFF)
+
 if (MSVC)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4")
 elseif (EMSCRIPTEN)
